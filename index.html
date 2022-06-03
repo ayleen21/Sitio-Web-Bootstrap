@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Document</title>
+
+  <!-- Para usar boostrap se debe añadir el css del framework -->
+  <link rel="stylesheet" href="lib/bootstrap-4.0.0-alpha.5-dist/bootstrap-4.0.0-alpha.5-dist/css/bootstrap.css">
+
+  <!-- Agregar el archivo para cargar la fuente-->
+  <link rel="stylesheet" href="lib/font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css">
+
+  <!-- Carga de estilos css personalizados -->
+  <link rel="stylesheet" href="static/css/styles.css">
+
+<body>
+  <section class="bienvenidos">
+    <div class="container">
+      <header class="encabezado">
+        <nav class="navbar navbar-light navbar-fixed-top">
+          <div class="container">
+          <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse"
+            data-target="#menuprincipal">
+            &#9776;
+          </button>
+          <!-- Si deseo que el logitipo se vea cuando la pantalla sea mas pequeña la ubico debajo del boton de menu -->
+          <img src="static/images/logo (1).png" width="120" height="50" class="navbar-brand"></a>
+          <!--Posicionando donde quiero que se vea el boton de menu-->
+          <div class="collapse navbar-toggleable-sm float-md-right" id="menuprincipal">
+
+            <ul class="nav navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portafolio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </header>
+
+      <div class="texto-bienvenido text-xs-center">
+        <p class="h5">Descripcion de tu perfil</p>
+        <h1 class="display-4" mb-3>TEXTO DE PRUEBA!</h1>
+        <a href="#" class="buttonContact">¡Contactame!</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="quienes_somos py-2 text-xs-center">
+    <div align="center" class="container">
+      <img src="static/images/nosotros.svg" alt="Nosotros" width="181" class="img-fluid mx-auto mb-2">
+      <h2 class="h2">Hola,soy Ayleen</h2>
+      <p>Texto descriptivo contando la experiencia los años y un pequeño resumen en el cual describa el proceso de
+        nuestra carrera</p>
+      <a href="#" class="btn-information btn-lg" data-toggle="modal" data-target="quienes_somos">Más información</a>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="servicios p-y-2 text-xs-center">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+
+          <i class='fa fa-desktop'></i>
+          <h3 class="h3 m-b-3">Desarrollo web</h3>
+
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, in! Expedita eligendi facilis fugiat
+            quibusdam molestiae praesentium aliquid. Nihil omnis enim, quos maiores vero fugit eveniet dolor voluptas
+            ipsum delectus.</p>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <i class="fa fa-database"></i>
+          <h3 class="h3 m-b-3"> Bases de datos</h3>
+
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, in! Expedita eligendi facilis fugiat
+            quibusdam molestiae praesentium aliquid. Nihil omnis enim, quos maiores vero fugit eveniet dolor voluptas
+            ipsum delectus.</p>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <i class='fa fa-check-square-o'></i>
+          <h3 class="h3 m-b-3">Wordpress</h3>
+
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, in! Expedita eligendi facilis fugiat
+            quibusdam molestiae praesentium aliquid. Nihil omnis enim, quos maiores vero fugit eveniet dolor voluptas
+            ipsum delectus.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <hr>
+
+  <section class="portafolio py-2 text-xs-center">
+    <div class="container">
+      <h2 class="h2 mb-3">Proyectos</h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#"><img src="static/images/proyecto1.svg" alt="Proyecto1" width="290" class="img-fluid m-x-auto">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#"><img src="static/images/proyecto2.svg" alt="Proyecto2" width="290" class="img-fluid m-x-auto">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#"><img src="static/images/proyecto3.svg" alt="Proyecto3" width="290" class="img-fluid m-x-auto">
+          </a>
+        </div>
+      
+      </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#"><img src="static/images/proyecto4.svg" alt="Proyecto1" width="290" class="img-fluid m-x-auto">
+            </a>
+          </div>
+  
+          <div class="col-md-4">
+            <a href="#"><img src="static/images/proyecto5.svg" alt="Proyecto2" width="290" class="img-fluid m-x-auto">
+            </a>
+          </div>
+  
+          <div class="col-md-4">
+            <a href="#"><img src="static/images/proyecto6.svg" alt="Proyecto3" width="290" class="img-fluid m-x-auto">
+            </a>
+          </div>
+
+
+      </div>
+
+    </div>
+
+
+    </div>
+
+  </section>
+  <footer class="footer py-2 text-xs-center">
+    <div class="container">
+      <p>2022 © AYLEENM21.COM Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+</body>
+<script src="./static/js/jquery.min.js"></script>
+<script src="lib/bootstrap-4.0.0-alpha.5-dist/bootstrap-4.0.0-alpha.5-dist/js/bootstrap.min.js"></script>
+
+<script src="./static/js/functionJs.js"></script>
+
+</html>
